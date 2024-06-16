@@ -31,4 +31,4 @@ def video_feed(request):
 
 
 def video_stream(request):
-    return render(request, "streaming/stream.html")
+    return render(request, "stream.html")
